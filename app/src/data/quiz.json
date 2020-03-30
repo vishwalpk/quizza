@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Tokyo", "Kyoto", "Hiroshima", "Nagasaki"]
+  },
+  {
+    "question": "What is the chemical symbol for Sodium?",
+    "options": ["So", "Na", "Sa", "Sd"]
+  },
+  {
+    "question": "Which is the smallest continent in the world?",
+    "options": ["Antartica", "Australia", "Africa", "Europe"]
+  },
+  {
+    "question": "Where is The International Court of Justice located?",
+    "options": ["The Hague", "New York", "London", "Paris"]
+  },
+  {
+    "question": "How many rings are on the Olympic flag?",
+    "options": ["4", "5", "6", "7"]
+  },
+  {
+    "question": "How many holes are on a standard bowling ball?",
+    "options": ["2", "3", "4", "5"]
+  },
+  {
+    "question": "What are the main colors on the flag of Spain?",
+    "options": [
+      "Red & yellow",
+      "Blue & green",
+      "Saffron & white",
+      "Red & white"
+    ]
+  },
+  {
+    "question": "What is the old name for Sri Lanka?",
+    "options": ["Cinnamon Island", "Ceylon", "Ayodhya", "Madras"]
+  }
+]
