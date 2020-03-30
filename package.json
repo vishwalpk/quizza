@@ -1,0 +1,24 @@
+{
+  "name": "quizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-app": "cd app && npm run build",
+    "start-app": "cd app && npm run start",
+    "deploy-app": "firebase deploy --only hosting",
+    "deploy-server": "cd server && firebase deploy",
+    "deploy": "npm run build-app && npm run build-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwalpk/quizza.git"
+  },
+  "keywords": [],
+  "author": "Vishwal Pejakkala Kakrannaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishwalpk/quizza/issues"
+  },
+  "homepage": "https://github.com/vishwalpk/quizza#readme"
+}
