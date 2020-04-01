@@ -1,39 +1,74 @@
 [
   {
-    "question": "What is the capital of Japan?",
-    "options": ["Tokyo", "Kyoto", "Hiroshima", "Nagasaki"]
-  },
-  {
-    "question": "What is the chemical symbol for Sodium?",
-    "options": ["So", "Na", "Sa", "Sd"]
-  },
-  {
-    "question": "Which is the smallest continent in the world?",
-    "options": ["Antartica", "Australia", "Africa", "Europe"]
-  },
-  {
-    "question": "Where is The International Court of Justice located?",
-    "options": ["The Hague", "New York", "London", "Paris"]
-  },
-  {
-    "question": "How many rings are on the Olympic flag?",
-    "options": ["4", "5", "6", "7"]
-  },
-  {
-    "question": "How many holes are on a standard bowling ball?",
-    "options": ["2", "3", "4", "5"]
-  },
-  {
-    "question": "What are the main colors on the flag of Spain?",
     "options": [
-      "Red & yellow",
-      "Blue & green",
-      "Saffron & white",
-      "Red & white"
+      { "isAnswer": true, "value": "Tokyo" },
+      { "value": "Kyoto", "isAnswer": false },
+      { "value": "Hiroshima", "isAnswer": false },
+      { "value": "Nagasaki", "isAnswer": false }
+    ],
+    "value": "What is the capital of Japan?"
+  },
+  {
+    "options": [
+      { "value": "The Hague", "isAnswer": true },
+      { "value": "New York", "isAnswer": false },
+      { "value": "London", "isAnswer": false },
+      { "value": "Paris", "isAnswer": false }
+    ],
+    "value": "Where is The International Court of Justice located?"
+  },
+  {
+    "value": "Which is the smallest continent in the world?",
+    "options": [
+      { "value": "Antartica", "isAnswer": false },
+      { "value": "Australia", "isAnswer": true },
+      { "value": "Africa", "isAnswer": false },
+      { "value": "Europe", "isAnswer": false }
     ]
   },
   {
-    "question": "What is the old name for Sri Lanka?",
-    "options": ["Cinnamon Island", "Ceylon", "Ayodhya", "Madras"]
+    "options": [
+      { "value": "So", "isAnswer": false },
+      { "value": "Na", "isAnswer": true },
+      { "isAnswer": false, "value": "Sa" },
+      { "value": "Sd", "isAnswer": false }
+    ],
+    "value": "What is the chemical symbol for Sodium?"
+  },
+  {
+    "options": [
+      { "value": "Red & yellow", "isAnswer": true },
+      { "value": "Blue & green", "isAnswer": false },
+      { "value": "Saffron & white", "isAnswer": false },
+      { "isAnswer": false, "value": "Red & white" }
+    ],
+    "value": "What are the main colors on the flag of Spain?"
+  },
+  {
+    "value": "How many rings are on the Olympic flag?",
+    "options": [
+      { "value": "4", "isAnswer": false },
+      { "value": "5", "isAnswer": true },
+      { "value": "6", "isAnswer": false },
+      { "value": "7", "isAnswer": false }
+    ]
+  },
+  {
+    "options": [
+      { "value": "Cinnamon Island", "isAnswer": false },
+      { "value": "Ceylon", "isAnswer": true },
+      { "value": "Ayodhya", "isAnswer": false },
+      { "value": "Madras", "isAnswer": false }
+    ],
+    "value": "What is the old name for Sri Lanka?"
+  },
+  {
+    "options": [
+      { "isAnswer": false, "value": "2" },
+      { "value": "3", "isAnswer": true },
+      { "value": "4", "isAnswer": false },
+      { "value": "5", "isAnswer": false }
+    ],
+    "value": "How many holes are on a standard bowling ball?"
   }
 ]

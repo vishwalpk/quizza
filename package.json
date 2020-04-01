@@ -7,6 +7,7 @@
     "build-app": "cd app && npm run build",
     "start-app": "cd app && npm run start",
     "deploy-app": "firebase deploy --only hosting",
+    "deploy-app-git": "npm run build-app && gh-pages -d app/build",
     "deploy-server": "cd server && firebase deploy",
     "deploy": "npm run build-app && npm run build-server"
   },
